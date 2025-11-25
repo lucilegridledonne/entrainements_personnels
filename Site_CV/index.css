@@ -1,0 +1,48 @@
+html {
+    height: 99%; 
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom,#606060,#888888,#B0B0B0);
+    display: flex;
+}
+
+body {
+    height: 99%; 
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom,#606060,#888888,#B0B0B0);
+    display: flex;
+}
+
+#nav_bar {
+    border: 10px solid black;
+    height: 90%;
+    width: 15%;
+    margin: 15px 45px 15px 40px;
+}
+
+#main {
+    border: 10px solid black;
+    height: 90%;
+    width: 80%;
+    margin: 15px 45px 15px 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#head {
+    height: 15%;
+    width: 100%;
+}
+
+#title {
+    background-color:#D0D0D0;
+    height: 100%;
+    width : 60%; 
+    text-align: center;
+    margin: 10px auto;
+    border: 5px solid black;
+}
