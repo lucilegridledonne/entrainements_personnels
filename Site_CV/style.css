@@ -50,9 +50,9 @@ a, a:visited {
     color: white;
 }
 #reseaux {
-    background-color: greenyellow;
     height: 15%;
     width: 100%;
+    background: linear-gradient(to bottom,black,#303030,#404040);
 }
 
 
