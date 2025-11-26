@@ -1,0 +1,86 @@
+/*Importations personnalisées*/
+@font-face {
+    font-family: Tusca;
+    src: url(fonts/Tusca.ttf)
+}
+
+/*General*/
+html {
+    height: 99%; 
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom,#606060,#888888,#B0B0B0);
+    display: flex;
+}
+body {
+    height: 99%; 
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom,#606060,#888888,#B0B0B0);
+    display: flex;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Barre de navigation*/
+#nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    height: 90%;
+    width: 15%;
+    margin: 15px 45px 15px 40px;
+}
+#in-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 98%;
+    width: 95%;
+    color: white;
+    text-align: center;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 5px ;
+}
+a, a:visited {
+    color: white;
+}
+#reseaux {
+    background-color: greenyellow;
+    height: 15%;
+    width: 100%;
+}
+
+
+/*Menu central*/
+#main {
+    border: 10px solid black;
+    height: 90%;
+    width: 80%;
+    margin: 15px 45px 15px 40px;
+}
+#head {
+    height: 15%;
+    width: 100%;
+    background-color: #606060;
+    border-bottom: 5px solid black;
+    text-align: center;
+    align-items: center;
+}
+#title {
+    background-color:#D0D0D0;
+    height: 90%;
+    width : 60%; 
+    text-align: center;
+    align-items: center;
+    margin: 2.5px auto;
+    border: 5px solid black;
+}
+#name_compagny{
+    font-family: Tusca;
+    transform : scaleX(1.5);
+}
